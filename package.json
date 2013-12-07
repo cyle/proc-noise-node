@@ -1,0 +1,28 @@
+{
+  "name": "proc-noise",
+  "version": "0.0.1",
+  "description": "Processing's implementation of Perlin noise.",
+  "homepage": "https://github.com/cyle/proc-noise-node",
+  "keywords": [ "perlin noise", "perlin", "noise", "simplex" ],
+  "bugs": { 
+    "url" : "http://github.com/cyle/proc-noise-node/issues",
+    "email" : "cylegage@gmail.com"
+  },
+  "author": {
+    "name": "Cyle Gage",
+    "email": "cylegage@gmail.com",
+    "url": "http://cylegage.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyle/proc-noise-node.git"
+  },
+  "main": "./lib/proc-noise",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+	  "alea": "0.0.9"
+  },
+  "readmeFilename": "README.md"
+}
