@@ -4,6 +4,14 @@
 
 This is basically a one-to-one port of [Processing's noise() functionality](http://processing.org/reference/noise_.html) from Java to Javascript for Node.js. Since Javascript's `Math.random()` has no seeding capability, I've used the wonderful [Alea](https://github.com/coverslide/node-alea) pseudo-random number generator instead.
 
+## Installation
+
+The typical way:
+
+    npm install proc-noise
+
+And that's it.
+
 ## Usage
 
 Using it is pretty simple:
